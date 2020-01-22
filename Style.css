@@ -25,11 +25,8 @@ h3
 	font-size: 1.5em;
 	font-family: abelregular, sans-serif;
 	color: black;
-}
-h3
-{
 	border-bottom: 3px #00bf89 double;
-	text-shadow: 1.5px 1.5px 2px #545454
+	text-shadow: 1px 1px 2px #545454
 }
 h1
 {
