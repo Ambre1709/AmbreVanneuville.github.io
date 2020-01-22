@@ -1,12 +1,41 @@
+@font-face {
+    font-family: 'abelregular';
+    src: url('Fonts/abel-regular-webfont.eot');
+    src: url('Fonts/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/abel-regular-webfont.woff2') format('woff2'),
+         url('Fonts/abel-regular-webfont.woff') format('woff'),
+         url('Fonts/abel-regular-webfont.ttf') format('truetype'),
+         url('Fonts/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 p
 {
 	color: gray; /*couleur paragraphe */
+	font-size: 1.2em;
+	font-family: abelregular, Arial, Verdana, Trebuchet MS, sans-serif;
 }
 .blue
 {
 	color: blue; 
 }
-*
+h3
 {
-	color: red; 
+	font-size: 1.5em;
+	font-family: abelregular, sans-serif;
+	color: red;
+}
+h1
+{
+	font-size: 2em;
+	font-family: abelregular, "Arial Black", sans-serif;
+}
+.float
+{
+	float: left;
+}
+.stopfloat
+{
+    clear: both;
 }
