@@ -26,6 +26,10 @@ h3
 	font-family: abelregular, sans-serif;
 	color: red;
 }
+h3
+{
+	border-top: 3px red double;
+}
 h1
 {
 	font-size: 2em;
