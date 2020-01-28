@@ -11,27 +11,15 @@
 }
 p
 {
-	color: #545454; /*couleur paragraphe */
 	font-size: 1.2em;
 	font-family: abelregular, Arial, Verdana, Trebuchet MS, sans-serif;
-}
-.blue
-{
-	color: #00bf89; 
-}
-h3
-{
-	font-size: 1.5em;
-	font-family: abelregular, sans-serif;
-	color: black;
-	border-bottom: 3px #00bf89 double;
-	text-shadow: 1px 1px 2px #545454
 }
 h1
 {
 	font-size: 2em;
 	font-family: abelregular, "Arial Black", sans-serif;
-	text-shadow: 1.5px 1.5px 2px #545454
+	text-shadow: 1.5px 1.5px 2px #545454;
+	text-align: center;
 }
 .float
 {
@@ -44,4 +32,75 @@ h1
 .bold
 {
 	font-weight: bold;
+}
+
+
+
+/* FLEXBOX */
+#container
+{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+
+
+
+/*partie de gauche*/
+aside
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#FF6347;
+    flex: 1;
+    color:#FFEBCD; 
+    text-align: justify;
+    padding: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+aside img
+{
+    border: 5px solid rgba(100,100,100,0.5);
+    border-radius: 50px;
+}
+.left_title
+{
+	text-align: center;
+	font-family: abelregular, sans-serif;
+	color: #FFEBCD;
+	text-shadow: 1px 1px 2px #545454
+
+}
+a
+{
+	color: #FFEBCD;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+    color: black;
+}
+
+
+
+
+/*partie de droite*/
+section 
+{
+	background-color: #FFEBCD;
+	padding: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.right_title
+{
+	border-bottom: 3px #FF6347 double;
+	font-family: abelregular, sans-serif;
+	color: black;
+	text-shadow: 1px 1px 2px #545454
 }
