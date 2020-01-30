@@ -17,11 +17,24 @@ p
 }
 h1
 {
-	font-size: 2em;
+	font-size: 2.5em;
 	font-family: abelregular, "Arial Black", sans-serif;
 	text-shadow: 1.5px 1.5px 2px #545454;
 	text-align: center;
-	margin: -20px;
+	margin-bottom: -25px;
+}
+h2
+{
+	font-size: 2em;
+	font-family: abelregular, "Arial Black", sans-serif;
+	text-align: center;
+	padding-bottom:15px;
+}
+hr
+{
+	border: 1px solid #FF6347;
+	width: 10%;
+	margin-top: -30px;
 }
 .Ambre
 {
@@ -47,7 +60,7 @@ h1
 
 /*partie de gauche*/
 aside
-{  /*une partie disparait quand on rétrécit la page en largeur*/
+{
     display: flex;
     flex-direction: column;
     background-color:#FF6347;
@@ -129,7 +142,7 @@ section h3
 	font-size: 1.4em;
 	margin-top: 50px;
 	color: black;
-	border-bottom: 3px #FF6347 double;
+	border-bottom: 2px #FF6347 solid;
 	padding-bottom:15px;
 
 }
