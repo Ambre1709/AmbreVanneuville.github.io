@@ -23,14 +23,13 @@ h1
 	text-align: center;
 	margin: -20px;
 }
+.Ambre
+{
+	color: #FF6347;
+}
 .bold
 {
 	font-weight: bold;
-}
-h3
-{
-	font-family: abelregular, sans-serif;
-	text-shadow: 1px 1px 2px #545454;
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
@@ -52,8 +51,8 @@ aside
     display: flex;
     flex-direction: column;
     background-color:#FF6347;
-    max-width: 500px;
-    min-width: 300px;
+    max-width: 300px;
+    min-width: 250px;
     color:#FFEBCD; 
     text-align: justify;
     padding-right: 20px;
@@ -63,22 +62,31 @@ aside img
 {
     border: 5px solid rgba(163,24,0,0.5);
     border-radius: 200px;
+    width: 180px;   
 }
 .img
 {
 	 text-align: center;
 	 margin-top: 20px;
 }
-.left_title
+.loisir
+{
+	margin-top: 800px;
+}
+aside h3
 {
 	text-align: center;
 	color: #FFEBCD;
 	font-size: 1.4em;
 	background-color: rgba(163,24,0,0.5);
+	padding-top: 17px;
+	padding-bottom: 17px;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	margin-left: -20px;
 	margin-right: -20px;
+	font-family: abelregular, sans-serif;
+	text-shadow: 1px 1px 2px #545454;
 }
 a
 {
@@ -90,7 +98,7 @@ a:hover
 	text-decoration: underline;
     color: black;
 }
-.aside_loisir_icons /*loisir doit rester en bas de la page!!!*/
+.aside_loisir_icons
 {
 	display: flex;
     justify-content: center;
@@ -103,25 +111,27 @@ a:hover
 /*------------------------------------------------------------------------------------------------------------*/
 
 /*partie de droite*/
+section 
+{
+	flex: 2;
+	background-color: #FFEBCD;
+	padding: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-width: 500px;
+    max-width: 1000px;
 
-#right_part
-{
-		display: flex;
-		flex: 2;
-		flex-direction: column;
-		flex-direction: row;
-		justify-content: space-between;
-		background-color: #FFEBCD; /* pourquoi la couleur ne marche pas?*/
-		padding: auto;
-    	padding-right: 20px;
-    	padding-left: 20px;
-    	min-width: 500px;
 }
-.right_title
+section h3
 {
-	border-bottom: 3px #FF6347 double;
-	color: black;
+	font-family: abelregular, sans-serif;
+	text-shadow: 1px 1px 2px #545454;
+	font-size: 1.4em;
 	margin-top: 50px;
+	color: black;
+	border-bottom: 3px #FF6347 double;
+	padding-bottom:15px;
+
 }
 i /*ICON*/
 {
@@ -137,7 +147,6 @@ i /*ICON*/
 .right_text
 {
 	/*A ALIGNER AVEC DATE*/
-	margin-top: -75px;
 	margin-bottom: 50px;
 	margin-left: 20%;
 	margin-right: 20%;
