@@ -84,7 +84,7 @@ aside img
 }
 .loisir
 {
-	margin-top: 800px;
+	margin-top: 840px;
 }
 aside h3
 {
@@ -115,7 +115,6 @@ a:hover
 {
 	display: flex;
     justify-content: center;
-    margin-bottom: 20px;
     font-size: 2em;
     margin-right: 10px;
 	margin-left: 10px;
@@ -152,17 +151,19 @@ i /*ICON*/
 	margin-left: 10px;
 	font-size: 1.5em;
 }
+.alignement
+{
+	display: flex;
+}
 .date
 {
-	width: 20%;
-	margin-right: 800px;
+	width: 300px;
+
 }
 .right_text
 {
-	/*A ALIGNER AVEC DATE*/
 	margin-bottom: 50px;
-	margin-left: 20%;
-	margin-right: 20%;
-	min-width: 500px;
+	width: 500px;
+	text-align: justify;
 }
 
