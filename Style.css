@@ -12,7 +12,7 @@
 /*------------------------------------------------------------------------------------------------------------*/
 p
 {
-	font-size: 1em;
+	font-size: 1.2em;
 	font-family: abelregular, Arial, Verdana, Trebuchet MS, sans-serif;
 }
 h1
@@ -84,7 +84,7 @@ aside img
 }
 .loisir
 {
-	margin-top: 540px; /*A MODIFIER NE MARCHE PAS QUAND ON REDUIT LA PAGE EN LARGEUR*/
+	margin-top: 680px; /*A MODIFIER NE MARCHE PAS QUAND ON REDUIT LA PAGE EN LARGEUR*/
 }
 aside h3
 {
@@ -115,9 +115,7 @@ a:hover
 {
 	display: flex;
     justify-content: center;
-    font-size: 2em;
-    margin-right: 10px;
-	margin-left: 10px;
+    font-size: 4em;
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
@@ -147,9 +145,12 @@ section h3
 }
 i /*ICON*/
 {
-	margin-right: 10px;
-	margin-left: 10px;
-	font-size: 1.5em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+section i
+{
+	margin-right: 40px;
 }
 .alignement
 {
@@ -168,20 +169,25 @@ i /*ICON*/
 }
 section img
 {
-	/*-------------------------------IMAGE A CENTRER*/
 	margin-top: 20px;
 	border: 5px solid rgba(255,99,71,1);
     border-radius: 200px;
     width: 180px; 
 }
 /*------------------------------------------------------------------------------------------------------------*/
+/*RESPONSIVE DESIGN*/
+
+/*ordi*/
 @media screen and (min-width: 1025px)
 {
 	section img
 	{
 		display: none;
 	}
+
 }
+
+/*tablette*/
 @media screen and (max-width: 1024px)
 {
 	#container
@@ -195,6 +201,18 @@ section img
    		 flex-direction: column;
    		  max-width: 1000px;
    	}
+   	section h3
+   	{
+   		font-size: 1.7em;
+   	}
+   	aside h3
+   	{
+   		font-size: 1.7em;
+   	}
+   	p
+   	{
+   		font-size: 1.6em;
+   	}
 	.Adresse
 	{
 		text-align: center;
@@ -203,6 +221,41 @@ section img
 	{
 		display: none;
 	}
-
+	.loisir
+	{
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
 }
 
+/*smartphone*/
+@media only screen and (max-device-width:480px)
+{
+	section img
+	{
+		width: 250px;
+	}
+	h1
+	{
+		font-size: 4em;
+	}
+	h2
+	{
+		font-size: 3em;
+	}
+	.alignement
+	{
+		display: flex;
+        flex-direction: column;
+    }
+    .date
+	{
+		width: 95%;
+
+	}
+	.right_text
+	{
+		width: 95%;
+	}
+
+}
