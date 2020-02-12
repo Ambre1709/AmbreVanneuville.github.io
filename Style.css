@@ -166,4 +166,32 @@ i /*ICON*/
 	width: 500px;
 	text-align: justify;
 }
+/*------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1024px)
+{
+	#container
+	{
+		 display: flex;
+		flex-direction: column;
+	}
+	aside
+	{
+   		 display: flex;
+   		 flex-direction: column;
+   		  max-width: 1000px;
+   	}
+   	.img
+	{
+		justify-content: center;
+	}
+	.loisir
+	{
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.Adresse
+	{
+		text-align: center;
+	}
+}
 
