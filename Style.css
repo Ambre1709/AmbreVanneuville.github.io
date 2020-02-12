@@ -12,7 +12,7 @@
 /*------------------------------------------------------------------------------------------------------------*/
 p
 {
-	font-size: 1.3em;
+	font-size: 1em;
 	font-family: abelregular, Arial, Verdana, Trebuchet MS, sans-serif;
 }
 h1
@@ -84,7 +84,7 @@ aside img
 }
 .loisir
 {
-	margin-top: 835px;
+	margin-top: 540px; /*A MODIFIER NE MARCHE PAS QUAND ON REDUIT LA PAGE EN LARGEUR*/
 }
 aside h3
 {
@@ -166,7 +166,22 @@ i /*ICON*/
 	width: 500px;
 	text-align: justify;
 }
+section img
+{
+	/*-------------------------------IMAGE A CENTRER*/
+	margin-top: 20px;
+	border: 5px solid rgba(255,99,71,1);
+    border-radius: 200px;
+    width: 180px; 
+}
 /*------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 1025px)
+{
+	section img
+	{
+		display: none;
+	}
+}
 @media screen and (max-width: 1024px)
 {
 	#container
@@ -180,18 +195,14 @@ i /*ICON*/
    		 flex-direction: column;
    		  max-width: 1000px;
    	}
-   	.img
-	{
-		justify-content: center;
-	}
-	.loisir
-	{
-		margin-top: 10px;
-		margin-bottom: 20px;
-	}
 	.Adresse
 	{
 		text-align: center;
 	}
+	aside img
+	{
+		display: none;
+	}
+
 }
 
