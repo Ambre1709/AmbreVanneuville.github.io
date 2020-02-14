@@ -75,13 +75,15 @@ aside img
 {
     border: 5px solid rgba(163,24,0,0.5);
     border-radius: 200px;
-    width: 180px;   
+    width: 180px;
+
 }
 .img
 {
 	 text-align: center;
-	 margin-top: 20px;
-}
+	}
+
+
 aside h3
 {
 	text-align: center;
@@ -91,7 +93,7 @@ aside h3
 	padding-top: 17px;
 	padding-bottom: 17px;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-left: -20px;
 	margin-right: -20px;
 	font-family: abelregular, sans-serif;
@@ -109,7 +111,8 @@ a:hover
 }
 .loisir
 {
-	margin-top: 680px; /*A MODIFIER NE MARCHE PAS CORRECTEMENT QUAND ON REDUIT LA PAGE EN LARGEUR*/
+	margin-top: auto;
+	margin-bottom: 20px;
 }
 .aside_loisir_icons
 {
@@ -184,6 +187,12 @@ section img
 	{
 		display: none;
 	}
+	.img
+{
+	
+	 padding-top: 20px;
+	 margin-bottom: 20px;
+}
 
 }
 
