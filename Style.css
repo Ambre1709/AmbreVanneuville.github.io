@@ -44,6 +44,17 @@ hr
 {
 	font-weight: bold;
 }
+.italic
+{
+	font-style: italic;
+}
+.ligne{
+	margin-top: -20px;
+}
+.ligne_bold{
+	margin-top: -20px;	
+	font-weight: bold;
+}
 
 /*------------------------------------------------------------------------------------------------------------*/
 
