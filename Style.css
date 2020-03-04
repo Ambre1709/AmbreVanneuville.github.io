@@ -10,8 +10,8 @@
     font-style: normal;
 }
 /*------------------------------------------------------------------------------------------------------------*/
-p
-{
+
+p{
 	font-size: 1.2em;
 	font-family: abelregular, Arial, Verdana, Trebuchet MS, sans-serif;
 }
@@ -55,6 +55,7 @@ hr
 	margin-top: -20px;	
 	font-weight: bold;
 }
+
 
 /*------------------------------------------------------------------------------------------------------------*/
 
@@ -186,6 +187,7 @@ section img
 	border: 5px solid rgba(255,99,71,1);
     border-radius: 200px;
     width: 180px; 
+
 }
 /*------------------------------------------------------------------------------------------------------------*/
 /*RESPONSIVE DESIGN*/
@@ -193,10 +195,13 @@ section img
 /*ordi*/
 @media screen and (min-width: 1025px)
 {
+	section img
+	{
+		display: none;
+	}
 	.img
 	{
 		display: flex;
-		flex-order: 1;
 		padding-top: 20px;
 		margin-bottom: 20px;
 		justify-content: center;
@@ -209,20 +214,21 @@ section img
 {
 	#container
 	{
-		display: flex;
+		 display: flex;
 		flex-direction: column;
 	}
 	.img
 	{
-		display: none;
-		flex-order: 2;
+		display: flex;
+		padding-top: 20px;
+		margin-bottom: 20px;
 		justify-content: center;
 	}
 	aside
 	{
-   		display: flex;
-   		flex-direction: column;
-   		max-width: 1000px;
+   		 display: flex;
+   		 flex-direction: column;
+   		  max-width: 1000px;
    	}
    	section h3
    	{
@@ -235,6 +241,10 @@ section img
 	.Adresse
 	{
 		text-align: center;
+	}
+	aside img
+	{
+		display: none;
 	}
 	.loisir
 	{
