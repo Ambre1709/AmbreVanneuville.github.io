@@ -177,6 +177,10 @@ section img
     border-radius: 200px;
     width: 180px; 
 }
+.centrer{
+	display: flex;
+	justify-content: center;
+}
 /*------------------------------------------------------------------------------------------------------------*/
 /*RESPONSIVE DESIGN*/
 
