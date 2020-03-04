@@ -77,10 +77,11 @@ aside
     background-color:#FF6347;
     max-width: 300px;
     min-width: 250px;
-    color:#FFEBCD; 
+    color:#fff; 
     text-align: justify;
     padding-right: 20px;
     padding-left: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 aside img
 {
@@ -89,16 +90,13 @@ aside img
     width: 180px;
 
 }
-.img
-{
-	 text-align: center;
-	}
+
 
 
 aside h3
 {
 	text-align: center;
-	color: #FFEBCD;
+	color: #fff;
 	font-size: 1.4em;
 	background-color: rgba(163,24,0,0.5);
 	padding-top: 17px;
@@ -112,7 +110,7 @@ aside h3
 }
 a
 {
-	color: #FFEBCD;
+	color: #fff;
 	text-decoration: none;
 }
 a:hover
@@ -138,12 +136,13 @@ a:hover
 section 
 {
 	flex: 2;
-	background-color: #FFEBCD;
+	background-color: #fff;
 	padding: auto;
     padding-right: 50px;
     padding-left: 30px;
     min-width: 500px;
     max-width: 1024px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 
 }
 section h3
@@ -188,26 +187,20 @@ section img
     border-radius: 200px;
     width: 180px; 
 }
-.centrer{
-	display: flex;
-	justify-content: center;
-}
 /*------------------------------------------------------------------------------------------------------------*/
 /*RESPONSIVE DESIGN*/
 
 /*ordi*/
 @media screen and (min-width: 1025px)
 {
-	section img
-	{
-		display: none;
-	}
 	.img
-{
-	
-	 padding-top: 20px;
-	 margin-bottom: 20px;
-}
+	{
+		display: flex;
+		flex-order: 1;
+		padding-top: 20px;
+		margin-bottom: 20px;
+		justify-content: center;
+	}
 
 }
 
@@ -216,14 +209,20 @@ section img
 {
 	#container
 	{
-		 display: flex;
+		display: flex;
 		flex-direction: column;
+	}
+	.img
+	{
+		display: none;
+		flex-order: 2;
+		justify-content: center;
 	}
 	aside
 	{
-   		 display: flex;
-   		 flex-direction: column;
-   		  max-width: 1000px;
+   		display: flex;
+   		flex-direction: column;
+   		max-width: 1000px;
    	}
    	section h3
    	{
@@ -236,10 +235,6 @@ section img
 	.Adresse
 	{
 		text-align: center;
-	}
-	aside img
-	{
-		display: none;
 	}
 	.loisir
 	{
