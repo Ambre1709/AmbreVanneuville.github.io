@@ -53,6 +53,7 @@ hr
 }
 .ligne_bold{
 	margin-top: -20px;	
+	margin-left: 80px;
 	font-weight: bold;
 }
 
@@ -174,6 +175,7 @@ section i
 .right_text
 {
 	margin-bottom: 50px;
+	margin-left: 80px;
 	width: 500px;
 	text-align: justify;
 }
@@ -189,7 +191,7 @@ section img
 /*RESPONSIVE DESIGN*/
 
 /*ordi*/
-@media screen and (min-width: 1025px)
+@media screen and (min-width: 1131px)
 {
 	section img
 	{
@@ -205,8 +207,8 @@ section img
 
 }
 
-/*tablette*/
-@media screen and (max-width: 1024px)
+/*tablette & petit écran*/
+@media screen and (max-width: 1130px)
 {
 	#container
 	{
